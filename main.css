@@ -1,0 +1,26 @@
+/*
+* Styles for MyYoga product landing page
+*/
+
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header-img {
+  max-width: 100px;
+}
+
+h1 {
+  font-size: 58px;
+  text-align: center;
+}
+
+#intro-section {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.section-background {
+  justify-content: center;
+}
