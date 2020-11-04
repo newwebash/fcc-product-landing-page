@@ -17,24 +17,52 @@
     </header>
 
     <main>
-      <div id="intro-section">
+      <div id="intro-section" class="main-content">
         <h1>Yoga for all</h1>
       </div>
 
-      <div id="classes-section>">
+      <div id="classes-section" class="main-content">
         <h2>Our classes</h2>
       </div>
 
-      <div id="pricing-section">
+      <div id="pricing-section" class="main-content">
         <h2>Pricing</h2>
       </div>
 
-      <div id="about-us-section">
+      <div id="about-us-section" class="main-content">
         <h2>About us</h2>
       </div>
 
-      <div id="contact-section">
+      <div id="contact-section" class="main-content">
         <h2>Contact us</h2>
+
+        <div id="form-wrapper" class="main-content">
+          <form id="form">
+
+            <div id="name-field" class="basic-info">
+              <label for="name" id="name-label">Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div id="email-field" class="basic-info">
+              <label for="email" id="email-label">Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div id="contact-content-field" class="contact-content-fields">
+              <p>We'd love to hear from you. Feel free to leave your feedback or ask questions!</p>
+                <label for="contact-content">How can we help you? (up to 200 characters)</label>
+              <textarea id="feedback" type="text" minlength="1" maxlength="200"
+              rows="4" cols="50" required></textarea>
+            </div>
+
+            <div id="submit-button-wrapper" class="contact-content-fields">
+              <button id="submit" type="submit" formaction="https://www.freecodecamp.org/email-submit">Submit</button>
+            </div>
+
+          </form>
+        </div>
+
       </div>
 
 
