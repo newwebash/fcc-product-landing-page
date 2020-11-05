@@ -18,9 +18,8 @@ body {
 }
 
 #nav-bar {
-
-
   width: 100%;
+  background-color: #e6b649;
 }
 
 #nav-bar ul {
@@ -30,6 +29,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: #045474;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.nav-icon {
+  max-width: 32px;
+}
+
 
 #background-image {
   width: 100%;
