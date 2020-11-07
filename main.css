@@ -49,6 +49,11 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
 h2, h3 {
   text-align: center;
   color: #222;
@@ -84,6 +89,21 @@ h3 {
   padding: 10px 20px;
   border-radius: 2px;
   text-align: center;
+}
+
+.general-button {
+  font-size: 1em;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  padding: 10px 0px;
+  background-color: #045474;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  width: 130px;
+  height: 60px;
+  margin: auto;
 }
 
 figcaption {
@@ -136,10 +156,11 @@ figcaption {
   }
 
   h3 {
+    margin-top: 0px;
     margin-bottom: 5px;
   }
 
-  .class-description, .pricing-description, .about-description, .main-content div {
+  .center-column, form div {
     padding: 8px;
   }
 
@@ -170,5 +191,7 @@ figcaption {
   #contact-content-field {
     font-size: 0.9em;
   }
+
+  #footer-content
 
 }
