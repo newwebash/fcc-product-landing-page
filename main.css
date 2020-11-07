@@ -6,6 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   width: 100%;
+  margin: 0px;
 }
 
 #header {
@@ -49,6 +50,11 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
 h2, h3 {
   text-align: center;
   color: #222;
@@ -86,6 +92,21 @@ h3 {
   text-align: center;
 }
 
+.general-button {
+  font-size: 1em;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  padding: 10px 0px;
+  background-color: #045474;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  width: 130px;
+  height: 60px;
+  margin: auto;
+}
+
 figcaption {
   background-color: #eee;
   font-size: 0.8em;
@@ -94,6 +115,26 @@ figcaption {
   padding: 3px;
 }
 
+footer {
+  background-color: #045474;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e6b649;
+}
+
+#social-icons ul {
+  display: flex;
+  justify-content: center;
+}
+
+#social-icons ul li {
+  list-style: none;
+  width: 25vw;
+}
 
  /* Smaller Mobile styles */
 
@@ -136,10 +177,11 @@ figcaption {
   }
 
   h3 {
+    margin-top: 0px;
     margin-bottom: 5px;
   }
 
-  .class-description, .pricing-description, .about-description, .main-content div {
+  .center-column, form div {
     padding: 8px;
   }
 
