@@ -6,6 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   width: 100%;
+  margin: 0px;
 }
 
 #header {
@@ -114,6 +115,26 @@ figcaption {
   padding: 3px;
 }
 
+footer {
+  background-color: #045474;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e6b649;
+}
+
+#social-icons ul {
+  display: flex;
+  justify-content: center;
+}
+
+#social-icons ul li {
+  list-style: none;
+  width: 25vw;
+}
 
  /* Smaller Mobile styles */
 
@@ -191,7 +212,5 @@ figcaption {
   #contact-content-field {
     font-size: 0.9em;
   }
-
-  #footer-content
 
 }
