@@ -138,18 +138,24 @@
           <form id="form">
 
             <div id="name-field" class="basic-info">
-              <label for="name" id="name-label">Name</label>
+              <label for="name" id="name-label">Name *</label>
               <input type="text" id="name" name="name" placeholder="Enter your name" required>
             </div>
 
             <div id="email-field" class="basic-info">
-              <label for="email" id="email-label">Email</label>
+              <label for="email" id="email-label">Email *</label>
               <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
 
+            <div id="subject-field" class="contact-content-fields">
+              <label for="subject" id="subject-label">Subject *</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+
             <div id="contact-content-field" class="contact-content-fields">
-              <p>We'd love to hear from you. Feel free to leave your feedback or ask questions!</p>
-                <label for="contact-content">How can we help you? (up to 200 characters)</label>
+              <p>We'd love to hear from you! Feel free to leave your feedback 
+                or ask a question.</p>
+                <label for="contact-content">Message (up to 200 characters) *</label>
               <textarea id="feedback" type="text" minlength="1" maxlength="200"
               rows="4" cols="30" required></textarea>
             </div>

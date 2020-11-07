@@ -139,7 +139,7 @@ figcaption {
     margin-bottom: 5px;
   }
 
-  .class-description, .pricing-description, .about-description {
+  .class-description, .pricing-description, .about-description, .main-content div {
     padding: 8px;
   }
 
@@ -160,6 +160,15 @@ figcaption {
 
   #about-us-img {
     width: 100%;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-content-field {
+    font-size: 0.9em;
   }
 
 }
