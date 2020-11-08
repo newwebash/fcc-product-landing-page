@@ -9,6 +9,10 @@ body {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #header {
   display: flex;
   width: 100%;
@@ -92,6 +96,13 @@ h3 {
   text-align: center;
 }
 
+.contact-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0px 10px 0px;
+}
+
 .general-button {
   font-size: 1em;
   letter-spacing: 0em;
@@ -134,6 +145,10 @@ footer a {
 #social-icons ul li {
   list-style: none;
   width: 25vw;
+}
+
+#social-icons ul li a {
+  color: #fff;
 }
 
  /* Smaller Mobile styles */
@@ -190,7 +205,7 @@ footer a {
     margin: 0px;
   }
 
-  .about-description p {
+  .about-description p, #footer-content p {
     padding: 5px 10px;
   }
 
