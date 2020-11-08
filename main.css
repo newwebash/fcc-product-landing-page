@@ -33,13 +33,12 @@ a {
   margin: 0px;
   padding: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 #nav-bar ul li a {
   text-decoration: none;
   color: #045474;
-
   padding-top: 15px;
 }
 
@@ -151,7 +150,30 @@ footer a {
   color: #fff;
 }
 
- /* Smaller Mobile styles */
+/* Larger Mobile styles */
+
+@media (max-width: 900px) and (min-width: 451px) {
+
+  #nav-bar ul li {
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+
+  #nav-bar ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar ul li a p {
+    margin-top: 3px;
+  }
+
+
+}
+
+/* Smaller Mobile styles */
+
 
 @media (max-width: 450px) {
 
