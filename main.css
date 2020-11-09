@@ -217,6 +217,10 @@ footer a {
 
 @media (max-width: 450px) {
 
+  body {
+    font-size: 1em;
+  }
+
   #header-img {
     width: 90px;
     min-height: 100%;
