@@ -128,7 +128,7 @@ figcaption {
 footer {
   background-color: #045474;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 0.9em;
 }
 
@@ -139,6 +139,7 @@ footer a {
 #social-icons ul {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 #social-icons ul li {
@@ -148,6 +149,17 @@ footer a {
 
 #social-icons ul li a {
   color: #fff;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  background: #fafafa;
+  color: #000;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
 /* Larger Mobile styles */
@@ -190,47 +202,50 @@ footer a {
     font-size: 28px;
   }
 
-  #class-descriptions-container, #pricing-descriptions-container {
+  #class-descriptions-container, #pricing-descriptions-container, form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-
-  /* #content-body-container div div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  } */
-
-  /* .center-column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  } */
 
   .dollar-amount {
     text-align: center;
   }
-
-  /* .contact-button {
-    display: none;
-  } */
 
   .center-column h3 {
     margin: 0px auto;
     padding: 5% 0% 0% 0%;
   }
 
-  .center-column {
+  .center-column, form div:nth-child(1), form div:nth-child(2) {
     width: 40%;
     padding: 0% 5%;
   }
 
-  /* #pricing-description {
-    display: flex;
-    justify-content: center;
-  } */
+  .about-description {
+    padding: 0% 5%;
+  }
 
+  #about-us-img {
+    width: 100%;
+  }
+
+  form div:nth-child(1), form div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form div:nth-child(3), form div:nth-child(4), form div:nth-child(5) {
+    width: 100%;
+    padding: 3% 5% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer {
+    padding: 5% 5%;
+  }
 
 }
 
@@ -304,7 +319,7 @@ footer a {
   }
 
   #about-us-img {
-    width: 100%;
+    width: inherit;
   }
 
   form div {
