@@ -190,14 +190,31 @@ footer a {
     font-size: 28px;
   }
 
-  #content-body-container div div {
-    /* display: grid;
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 50% 50%; */
+  #class-descriptions-container, #pricing-descriptions-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  /* #content-body-container div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
+
+  /* .center-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
+
+  .dollar-amount {
+    text-align: center;
+  }
+
+  /* .contact-button {
+    display: none;
+  } */
 
   .center-column h3 {
     margin: 0px auto;
@@ -208,6 +225,11 @@ footer a {
     width: 40%;
     padding: 0% 5%;
   }
+
+  /* #pricing-description {
+    display: flex;
+    justify-content: center;
+  } */
 
 
 }
