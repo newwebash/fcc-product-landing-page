@@ -128,7 +128,7 @@ figcaption {
 footer {
   background-color: #045474;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 0.9em;
 }
 
@@ -139,6 +139,7 @@ footer a {
 #social-icons ul {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 #social-icons ul li {
@@ -240,6 +241,10 @@ input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  footer {
+    padding: 5% 5%;
   }
 
 }
