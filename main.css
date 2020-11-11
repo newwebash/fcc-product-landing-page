@@ -196,25 +196,9 @@ footer a {
     flex-wrap: wrap;
   }
 
-  /* #content-body-container div div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  } */
-
-  /* .center-column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  } */
-
   .dollar-amount {
     text-align: center;
   }
-
-  /* .contact-button {
-    display: none;
-  } */
 
   .center-column h3 {
     margin: 0px auto;
@@ -226,10 +210,14 @@ footer a {
     padding: 0% 5%;
   }
 
-  /* #pricing-description {
-    display: flex;
-    justify-content: center;
-  } */
+  .about-description {
+    padding: 0% 5%;
+  }
+
+  #about-us-img {
+    width: 100%;
+  }
+
 
 
 }
@@ -304,7 +292,7 @@ footer a {
   }
 
   #about-us-img {
-    width: 100%;
+    width: inherit;
   }
 
   form div {
