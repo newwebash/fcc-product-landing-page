@@ -17,6 +17,7 @@ a {
 #header {
   display: flex;
   width: 100%;
+  background-color: #e6b649;
 }
 
 #header-img {
@@ -167,12 +168,34 @@ input, textarea {
   border-radius: 2px;
 }
 
+
+
+
+
 /* Larger Mobile styles */
 
 @media (max-width: 900px) and (min-width: 451px) {
 
+
+  /* html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+    font-size: 1em;
+  } */
+
+  #nav-bar {
+    margin: auto;
+  }
+
+  #nav-bar ul {
+    justify-content: space-between;
+  }
+
   #nav-bar ul li {
-    padding: 2% 5% 1% 5%;
+    padding: 5px 5px;
     text-align: center;
   }
 
@@ -184,7 +207,11 @@ input, textarea {
 
   #nav-bar ul li a p {
     margin-top: 3px;
-    font-size: 1.4em;
+    font-size: 0.7em;
+  }
+
+  .nav-icon {
+    width: auto;
   }
 
   #intro-section {
