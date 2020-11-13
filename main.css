@@ -69,6 +69,9 @@ h3 {
   background-size: cover;
   background-color: #3498db;
   color: #fff;
+  /* min-height: 75vh;
+  max-height: 90vh;*/
+  min-width: 100%;
 }
 
 #intro-section .content-wrapper .content {
@@ -169,13 +172,17 @@ input, textarea {
 
 @media (min-width: 901px) {
 
+  body {
+    font-size: 1.1em;
+  }
+
   #header-img {
     display: none;
   }
 
   #header-img-wide {
-    width: 319px;
-    height: 100px;
+    width: 239px;
+    height: 75px;
   }
 
   .nav-icon {
@@ -189,6 +196,41 @@ input, textarea {
 
   #nav-bar ul li {
     margin: auto 15px;
+  }
+
+  #nav-bar ul li {
+    margin: auto 15px;
+  }
+
+  #intro-section  {
+    background: url("_static/images/yoga-site-banner.jpg") no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+  }
+
+  #intro-section h1 {
+    padding: 100px 0px;
+    font-size: 5em;
+  }
+
+  #content-body-container > div {
+    padding-top: 3%;
+  }
+
+  .flex-row-4 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .flex-row-4 div {
+    width: 200px;
+  }
+
+  .dollar-amount {
+    text-align: center;
   }
 
 }
