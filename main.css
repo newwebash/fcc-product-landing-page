@@ -69,6 +69,9 @@ h3 {
   background-size: cover;
   background-color: #3498db;
   color: #fff;
+  /* min-height: 75vh;
+  max-height: 90vh;*/
+  min-width: 100%;
 }
 
 #intro-section .content-wrapper .content {
@@ -199,6 +202,16 @@ input, textarea {
     margin: auto 15px;
   }
 
+  #intro-section  {
+    background: url("_static/images/yoga-site-banner.jpg") no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+  }
+
+  #intro-section h1 {
+    padding: 100px 0px;
+    font-size: 5em;
+  }
 
 }
 
