@@ -186,10 +186,20 @@ input, textarea {
     font-size: 1em;
   } */
 
+  #header-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  header {
+    height: 90px;
+  }
+
   #nav-bar {
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
+    height: 75px;
   }
 
   #nav-bar ul {
@@ -197,7 +207,7 @@ input, textarea {
   }
 
   #nav-bar ul li {
-    padding: 5px 5px;
+    padding: 0px 5px;
     text-align: center;
   }
 
