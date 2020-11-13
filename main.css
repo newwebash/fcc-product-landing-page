@@ -169,14 +169,22 @@ input, textarea {
 
 @media (min-width: 901px) {
 
+  body {
+    font-size: 1.1em;
+  }
+
   #header-img {
     display: none;
   }
 
   #header-img-wide {
-    width: 319px;
-    height: 100px;
+    width: 239px;
+    height: 75px;
   }
+
+  /* #nav-bar {
+    background-color: transparent;
+  } */
 
   .nav-icon {
     display: none;
@@ -190,6 +198,11 @@ input, textarea {
   #nav-bar ul li {
     margin: auto 15px;
   }
+
+  #nav-bar ul li {
+    margin: auto 15px;
+  }
+
 
 }
 
