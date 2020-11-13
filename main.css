@@ -213,6 +213,26 @@ input, textarea {
     font-size: 5em;
   }
 
+  #content-body-container > div {
+    padding-top: 3%;
+  }
+
+  .flex-row-4 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .flex-row-4 div {
+    width: 200px;
+  }
+
+  .dollar-amount {
+    text-align: center;
+  }
+
 }
 
 
