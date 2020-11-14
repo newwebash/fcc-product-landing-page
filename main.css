@@ -372,8 +372,6 @@ input, textarea {
     font-size: 28px;
   }
 
-/**/
-
   #class-descriptions-container, #pricing-descriptions-container, form {
     display: flex;
     flex-direction: row;
@@ -437,7 +435,7 @@ input, textarea {
 
   #header-img {
     width: 90px;
-    min-height: 100%;
+    height: 90px;
   }
 
   #header-img-wide {
@@ -467,6 +465,11 @@ input, textarea {
   .nav-icon {
     width: auto;
   }
+
+  main {
+    margin-top: 75px;
+  }
+
 
   #intro-section {
     width: auto;
