@@ -6,8 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   margin: 0px;
-  position: absolute;
-  font-size: 1.5em;
+  font-size: 14px;
 }
 
 a {
@@ -173,7 +172,7 @@ input, textarea {
 @media (min-width: 901px) {
 
   body {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   #header-img {
