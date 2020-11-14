@@ -265,8 +265,6 @@ input, textarea {
   form div:nth-child(1), form div:nth-child(2) {
     display: flex;
     flex-direction: column;
-    /* margin-left: auto;
-    margin-right: auto; */
     width: 45%;
   }
 
@@ -276,6 +274,29 @@ input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  #footer-content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  #footer-content div:nth-child(1) {
+    flex-basis: 20%;
+  }
+
+  #footer-content div:nth-child(2), #footer-content div:nth-child(2) {
+    flex-basis: 40%;
+  }
+
+  #social-icons ul {
+    padding: 0px;
+  }
+
+  #social-icons ul li {
+    list-style: none;
+    width: 25%;
   }
 
 }
