@@ -232,6 +232,27 @@ input, textarea {
     text-align: center;
   }
 
+  .about-description {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+
+  #about-img-container {
+    flex-basis: 70%;
+    padding-right: 15px;
+  }
+
+  #about-us-img {
+    width: 100%;
+  }
+
+  .about-description > p {
+    flex-basis: 30%;
+    padding-left: 15px;
+
+  }
+
 }
 
 
@@ -435,7 +456,7 @@ input, textarea {
     font-weight: bold;
   }
 
-  .about-description {
+  .about-description, #about-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
