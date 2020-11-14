@@ -150,7 +150,7 @@ footer a {
   list-style: none;
   width: auto;
   margin: auto;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 #social-icons ul li a {
@@ -228,6 +228,7 @@ input, textarea {
 
   .flex-row-4 div {
     width: 200px;
+    margin: 8px;
   }
 
   .dollar-amount {
