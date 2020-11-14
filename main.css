@@ -148,7 +148,9 @@ footer a {
 
 #social-icons ul li {
   list-style: none;
-  width: 25vw;
+  width: auto;
+  margin: auto;
+  font-size: 1.8em;
 }
 
 #social-icons ul li a {
@@ -292,11 +294,6 @@ input, textarea {
 
   #social-icons ul {
     padding: 0px;
-  }
-
-  #social-icons ul li {
-    list-style: none;
-    width: 25%;
   }
 
 }
