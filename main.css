@@ -6,12 +6,15 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   margin: 0px;
-  position: absolute;
-  font-size: 1.5em;
+  font-size: 14px;
 }
 
 a {
   text-decoration: none;
+}
+
+header {
+  position: fixed;
 }
 
 #header {
@@ -145,11 +148,14 @@ footer a {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  padding-left: 0px;
 }
 
 #social-icons ul li {
   list-style: none;
-  width: 25vw;
+  width: auto;
+  margin: auto;
+  font-size: 1.6em;
 }
 
 #social-icons ul li a {
@@ -173,7 +179,7 @@ input, textarea {
 @media (min-width: 901px) {
 
   body {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   #header-img {
@@ -227,10 +233,73 @@ input, textarea {
 
   .flex-row-4 div {
     width: 200px;
+    margin: 8px;
   }
 
   .dollar-amount {
     text-align: center;
+  }
+
+  .about-description {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+
+  #about-img-container {
+    flex-basis: 70%;
+    padding-right: 15px;
+  }
+
+  #about-us-img {
+    width: 100%;
+  }
+
+  .about-description > p {
+    flex-basis: 30%;
+    padding-left: 15px;
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  form div:nth-child(1), form div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+
+  form div:nth-child(3), form div:nth-child(4), form div:nth-child(5) {
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer-content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  #footer-content div:nth-child(1) {
+    flex-basis: 20%;
+  }
+
+  #footer-content div:nth-child(2), #footer-content div:nth-child(2) {
+    flex-basis: 40%;
+  }
+
+  #social-icons ul {
+    padding: 0px;
   }
 
 }
@@ -367,7 +436,7 @@ input, textarea {
 
   #header-img {
     width: 90px;
-    min-height: 100%;
+    height: 90px;
   }
 
   #header-img-wide {
@@ -397,6 +466,11 @@ input, textarea {
   .nav-icon {
     width: auto;
   }
+
+  main {
+    margin-top: 75px;
+  }
+
 
   #intro-section {
     width: auto;
@@ -436,7 +510,7 @@ input, textarea {
     font-weight: bold;
   }
 
-  .about-description {
+  .about-description, #about-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
