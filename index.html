@@ -14,19 +14,19 @@
       <a accesskey="h" href="#intro-section"><img src="_static/images/myfav_yoga_logo_wide.png" id="header-img-wide" alt="MyFav Yoga Logo"></a>
       <nav id="nav-bar">
         <ul>
-          <li id="classes-button" class="nav-link"><a accesskey="c" href="#classes-section">
+          <li id="classes-button"><a accesskey="c" href="#classes-section" class="nav-link">
             <img src="_static/images/yoga-mat.png" class="nav-icon"><p>Classes</p></a>
           </li>
 
-          <li id="pricing-button" class="nav-link"><a accesskey="p" href="#pricing-section">
+          <li id="pricing-button"><a accesskey="p" href="#pricing-section" class="nav-link">
             <img src="_static/images/price-tag.png" class="nav-icon"><p>Pricing</p></a>
           </li>
 
-          <li id="about-button" class="nav-link"><a accesskey="a" href="#about-us-section">
+          <li id="about-button"><a accesskey="a" href="#about-us-section" class="nav-link">
             <img src="_static/images/yoga.png" class="nav-icon"><p>About</p></a>
           </li>
 
-          <li id="contact-buton" class="nav-link"><a accesskey="f" href="#contact-section">
+          <li id="contact-buton"><a accesskey="f" href="#contact-section" class="nav-link">
             <img src="_static/images/laptop.png" class="nav-icon"><p>Contact</p></a>
           </li>
         </ul>
@@ -41,7 +41,7 @@
         <div class="content-wrapper">
           <div class="content">
 
-            <h1>Yoga for all</h1>
+            <h1 id="title">Yoga for all</h1>
             <a href="#classes-section"><button accesskey="c" id="banner-button">See our classes</button></a>
 
          </div>
@@ -142,9 +142,9 @@
                       <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">
                         (license)</a></figcaption>
                 </div>
-                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                    esse quam nihil molestiae consequatur, vel illum qui dolorem eum
-                    fugiat quo voluptas nulla pariatur?
+                <p id="description">This website is the landing page for a fictional yoga studio
+                  called MyFav Yoga. Since I'm always in search of the perfect
+                  yoga studio, I figured I'd create a landing page for one!
                 </p>
               </div>
 
@@ -179,7 +179,7 @@
             <div id="form-container">
 
               <div id="form-wrapper" class="main-content">
-              <form id="form">
+              <form id="form" action="https://www.freecodecamp.org/email-submit">
 
                 <div id="name-field" class="basic-info">
                   <label for="name" id="name-label">Name *</label>
@@ -205,7 +205,8 @@
                 </div>
 
                 <div id="submit-button-wrapper" class="contact-content-fields">
-                  <button accesskey="s" id="submit" class="general-button" type="submit" formaction="https://www.freecodecamp.org/email-submit">Submit</button>
+                  <input accesskey="s" type="submit" value="Submit" id="submit"
+                  class="general-button">
                 </div>
 
               </form>
