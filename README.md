@@ -1,11 +1,23 @@
 # fcc-product-landing-page
 Welcome to my FreeCodeCamp Product Landing Page project!
 
-![Site screenshot](_static/images/fcc-product-landing-page-above-fold-16Nov20.PNG)
-
 This website is the landing page for a fictional yoga studio
 called MyFav Yoga. Since I'm always in search of the perfect
 yoga studio, I figured I'd create a landing page for one!
+
+It's a responsive site for three different screen sizes.
+
+## Larger screens
+
+![Site screenshot](_static/images/fcc-product-landing-page-above-fold-16Nov20.PNG)
+
+## Mid-size screens
+
+![Site screenshot](_static/images/fcc-product-landing-page-above-fold-mid-size-screen-16Nov20.PNG)
+
+## Smaller screens
+
+![Site screenshot](_static/images/fcc-product-landing-page-above-fold-smaller-screen-16Nov20.PNG)
 
 ## See the site live
 
