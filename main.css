@@ -20,19 +20,19 @@ header {
   z-index: 2;
 }
 
-#header {
+.site-header {
   display: flex;
   width: 100%;
   background-color: #e6b649;
 }
 
-#nav-bar {
+.site-nav {
   width: 100%;
   background-color: #e6b649;
   padding: 0px 10px;
 }
 
-#nav-bar ul {
+.site-nav ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -40,7 +40,7 @@ header {
   justify-content: flex-end;
 }
 
-#nav-bar ul li a {
+.nav-link {
   text-decoration: none;
   color: #045474;
   padding-top: 15px;
@@ -50,26 +50,28 @@ header {
   width: 100%;
 }
 
+.center-aligned-heading {
+  text-align: center;
+}
+
+.heading-black {
+  color: #222;
+}
 
 h1 {
   font-size: 58px;
-  text-align: center;
 }
 
 h2 {
   padding-top: 20px;
   padding-bottom: 0;
-  text-align: center;
-  color: #222;
 }
 
 h3 {
-  text-align: center;
-  color: #222;
   font-size: 1.3em;
 }
 
-#intro-section  {
+.main-img-section {
   background: url("_static/images/yoga-site-banner.jpg") no-repeat left top;
   background-size: cover;
   background-color: #3498db;
@@ -77,14 +79,10 @@ h3 {
   min-width: 100%;
 }
 
-#intro-section .content-wrapper .content {
+.intro-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.section-background {
-  justify-content: center;
 }
 
 #banner-button {
@@ -207,11 +205,11 @@ input, textarea {
     height: 75px;
   }
 
-  #header-img {
+  .logo-mobile-style {
     display: none;
   }
 
-  #header-img-wide {
+  .logo-desktop-style {
     width: 239px;
     height: 75px;
   }
@@ -220,26 +218,26 @@ input, textarea {
     display: none;
   }
 
-  #nav-bar ul {
+  .site-nav ul {
     height: 100%;
     padding-right: 50px;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     margin: auto 15px;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     margin: auto 15px;
   }
 
-  #intro-section  {
+  .main-img-section  {
     background-position: center center;
     background-size: cover;
     height: 90vh;
   }
 
-  #intro-section h1 {
+  .site-title {
     padding: 100px 0;
     font-size: 5em;
   }
@@ -335,12 +333,12 @@ input, textarea {
 
 @media (max-width: 900px) and (min-width: 451px) {
 
-  #header-img {
+  .logo-mobile-style {
     width: 90px;
     height: 90px;
   }
 
-  #header-img-wide {
+  .logo-desktop-style {
     display: none;
   }
 
@@ -348,29 +346,29 @@ input, textarea {
     height: 90px;
   }
 
-  #nav-bar {
+  .site-nav {
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
     height: 75px;
   }
 
-  #nav-bar ul {
+  .site-nav ul {
     justify-content: space-between;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     padding: 0 5px;
     text-align: center;
   }
 
-  #nav-bar ul li a {
+  .site-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #nav-bar ul li a p {
+  .site-nav ul li a p {
     margin-top: 3px;
     font-size: 0.7em;
   }
@@ -379,7 +377,7 @@ input, textarea {
     width: auto;
   }
 
-  #intro-section {
+  .main-img-section {
     width: auto;
     height: 60vh;
     display: flex;
@@ -387,7 +385,7 @@ input, textarea {
     justify-content: space-between;
   }
 
-  #intro-section .content-wrapper .content {
+  .intro-content {
     padding: 5% 0%;
   }
 
@@ -460,12 +458,12 @@ input, textarea {
     font-size: 1em;
   }
 
-  #header-img {
+  .logo-mobile-style {
     width: 90px;
     height: 90px;
   }
 
-  #header-img-wide {
+  .logo-desktop-style {
     display: none;
   }
 
@@ -474,17 +472,17 @@ input, textarea {
     height: 90px;
   }
 
-  #nav-bar ul {
+  .site-nav ul {
     justify-content: space-between;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     font-size: 10px;
     padding: 0 5px;
     text-align: center;
   }
 
-  #nav-bar ul li a {
+  .site-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -499,12 +497,12 @@ input, textarea {
   }
 
 
-  #intro-section {
+  .main-img-section {
     width: auto;
     height: 40vh;
   }
 
-  #intro-section .content-wrapper .content {
+  .intro-content {
     padding: 5% 0%;
   }
 
