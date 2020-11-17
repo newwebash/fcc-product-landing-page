@@ -40,7 +40,7 @@ header {
   justify-content: flex-end;
 }
 
-.site-nav ul li a {
+.nav-link {
   text-decoration: none;
   color: #045474;
   padding-top: 15px;
@@ -207,11 +207,11 @@ input, textarea {
     height: 75px;
   }
 
-  #header-img {
+  .logo-mobile-style {
     display: none;
   }
 
-  #header-img-wide {
+  .logo-desktop-style {
     width: 239px;
     height: 75px;
   }
@@ -335,12 +335,12 @@ input, textarea {
 
 @media (max-width: 900px) and (min-width: 451px) {
 
-  #header-img {
+  .logo-mobile-style {
     width: 90px;
     height: 90px;
   }
 
-  #header-img-wide {
+  .logo-desktop-style {
     display: none;
   }
 
@@ -460,12 +460,12 @@ input, textarea {
     font-size: 1em;
   }
 
-  #header-img {
+  .logo-mobile-style {
     width: 90px;
     height: 90px;
   }
 
-  #header-img-wide {
+  .logo-desktop-style {
     display: none;
   }
 
