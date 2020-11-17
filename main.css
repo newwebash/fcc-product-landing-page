@@ -20,19 +20,19 @@ header {
   z-index: 2;
 }
 
-#header {
+.site-header {
   display: flex;
   width: 100%;
   background-color: #e6b649;
 }
 
-#nav-bar {
+.site-nav {
   width: 100%;
   background-color: #e6b649;
   padding: 0px 10px;
 }
 
-#nav-bar ul {
+.site-nav ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -40,7 +40,7 @@ header {
   justify-content: flex-end;
 }
 
-#nav-bar ul li a {
+.site-nav ul li a {
   text-decoration: none;
   color: #045474;
   padding-top: 15px;
@@ -220,16 +220,16 @@ input, textarea {
     display: none;
   }
 
-  #nav-bar ul {
+  .site-nav ul {
     height: 100%;
     padding-right: 50px;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     margin: auto 15px;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     margin: auto 15px;
   }
 
@@ -348,29 +348,29 @@ input, textarea {
     height: 90px;
   }
 
-  #nav-bar {
+  .site-nav {
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
     height: 75px;
   }
 
-  #nav-bar ul {
+  .site-nav ul {
     justify-content: space-between;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     padding: 0 5px;
     text-align: center;
   }
 
-  #nav-bar ul li a {
+  .site-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #nav-bar ul li a p {
+  .site-nav ul li a p {
     margin-top: 3px;
     font-size: 0.7em;
   }
@@ -474,17 +474,17 @@ input, textarea {
     height: 90px;
   }
 
-  #nav-bar ul {
+  .site-nav ul {
     justify-content: space-between;
   }
 
-  #nav-bar ul li {
+  .site-nav ul li {
     font-size: 10px;
     padding: 0 5px;
     text-align: center;
   }
 
-  #nav-bar ul li a {
+  .site-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
