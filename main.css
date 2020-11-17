@@ -50,26 +50,28 @@ header {
   width: 100%;
 }
 
+.center-aligned-heading {
+  text-align: center;
+}
+
+.heading-black {
+  color: #222;
+}
 
 h1 {
   font-size: 58px;
-  text-align: center;
 }
 
 h2 {
   padding-top: 20px;
   padding-bottom: 0;
-  text-align: center;
-  color: #222;
 }
 
 h3 {
-  text-align: center;
-  color: #222;
   font-size: 1.3em;
 }
 
-#intro-section  {
+.main-img-section {
   background: url("_static/images/yoga-site-banner.jpg") no-repeat left top;
   background-size: cover;
   background-color: #3498db;
@@ -77,14 +79,10 @@ h3 {
   min-width: 100%;
 }
 
-#intro-section .content-wrapper .content {
+.intro-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.section-background {
-  justify-content: center;
 }
 
 #banner-button {
@@ -233,13 +231,13 @@ input, textarea {
     margin: auto 15px;
   }
 
-  #intro-section  {
+  .main-img-section  {
     background-position: center center;
     background-size: cover;
     height: 90vh;
   }
 
-  #intro-section h1 {
+  .site-title {
     padding: 100px 0;
     font-size: 5em;
   }
@@ -379,7 +377,7 @@ input, textarea {
     width: auto;
   }
 
-  #intro-section {
+  .main-img-section {
     width: auto;
     height: 60vh;
     display: flex;
@@ -387,7 +385,7 @@ input, textarea {
     justify-content: space-between;
   }
 
-  #intro-section .content-wrapper .content {
+  .intro-content {
     padding: 5% 0%;
   }
 
@@ -499,12 +497,12 @@ input, textarea {
   }
 
 
-  #intro-section {
+  .main-img-section {
     width: auto;
     height: 40vh;
   }
 
-  #intro-section .content-wrapper .content {
+  .intro-content {
     padding: 5% 0%;
   }
 
