@@ -347,6 +347,8 @@ footer a {
 
 @media (max-width: 900px) and (min-width: 451px) {
 
+  /* Header and nav */
+
   .logo-mobile-style {
     width: 90px;
     height: 90px;
@@ -362,8 +364,8 @@ footer a {
 
   .site-nav {
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 40px;
     height: 75px;
   }
 
@@ -371,18 +373,18 @@ footer a {
     justify-content: space-between;
   }
 
-  .site-nav ul li {
+  .top-nav-items {
     padding: 0 5px;
     text-align: center;
   }
 
-  .site-nav ul li a {
+  .nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .site-nav ul li a p {
+  .nav-link p {
     margin-top: 3px;
     font-size: 0.7em;
   }
@@ -390,6 +392,8 @@ footer a {
   .nav-icon {
     width: auto;
   }
+
+  /* Intro section */
 
   .main-img-section {
     width: auto;
@@ -411,7 +415,9 @@ footer a {
     font-size: 28px;
   }
 
-  #class-descriptions-container, #pricing-descriptions-container, form {
+  /* Main section */
+
+  .flex-row-wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -426,7 +432,7 @@ footer a {
     padding: 5% 0 0 0;
   }
 
-  .center-column, form div:nth-child(1), form div:nth-child(2) {
+  .center-column, .basic-info {
     width: 40%;
     padding: 0 5%;
   }
@@ -439,12 +445,12 @@ footer a {
     width: 100%;
   }
 
-  form div:nth-child(1), form div:nth-child(2) {
+  .basic-info {
     display: flex;
     flex-direction: column;
   }
 
-  form div:nth-child(3), form div:nth-child(4), form div:nth-child(5) {
+  .contact-content-fields {
     width: 100%;
     padding: 3% 5% 0 5%;
     display: flex;
