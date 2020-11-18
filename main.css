@@ -2,22 +2,27 @@
 * Styles for MyYoga product landing page
 */
 
+/* Global styles - all viewport sizes */
+
 body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
 }
 
+/* Header and nav */
+
 header {
   position: fixed;
   -webkit-box-shadow: 0 2px 7px 2px rgba(0,0,0,0.24);
   box-shadow: 0 2px 7px 2px rgba(0,0,0,0.24);
   z-index: 2;
+  height: 75px;
 }
 
 .site-header {
@@ -26,22 +31,26 @@ header {
   background-color: #e6b649;
 }
 
+.logo-desktop-style {
+  width: 239px;
+  height: 75px;
+}
+
 .site-nav {
   width: 100%;
   background-color: #e6b649;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 .site-nav ul {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: flex-end;
 }
 
 .nav-link {
-  text-decoration: none;
   color: #045474;
   padding-top: 15px;
 }
@@ -49,6 +58,8 @@ header {
 .nav-icon {
   width: 100%;
 }
+
+/* Headings*/
 
 .center-aligned-heading {
   text-align: center;
@@ -71,6 +82,8 @@ h3 {
   font-size: 1.3em;
 }
 
+/* Intro section */
+
 .main-img-section {
   background: url("_static/images/yoga-site-banner.jpg") no-repeat left top;
   background-size: cover;
@@ -85,7 +98,9 @@ h3 {
   align-items: center;
 }
 
-#banner-button {
+/* Buttons */
+
+.intro-banner-button {
   background-color: #fff;
   color: #111;
   border: 0;
@@ -123,7 +138,9 @@ h3 {
   font-weight: 700;
 }
 
-figcaption {
+/* About us */
+
+.img-description {
   background-color: #eee;
   font-size: 0.8em;
   color: #222;
@@ -131,14 +148,14 @@ figcaption {
   padding: 3px;
 }
 
-#about-vid-container {
+.vid-container {
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
 }
 
-#video {
+.vid {
   position: absolute;
   top: 0;
   left: 0;
@@ -147,38 +164,7 @@ figcaption {
   z-index: 1;
 }
 
-#about-vid-container figcaption {
-  position: relative;
-}
-
-footer {
-  background-color: #045474;
-  color: #fff;
-  margin-top: 30px;
-  font-size: 0.9em;
-}
-
-footer a {
-  color: #e6b649;
-}
-
-#social-icons ul {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-left: 0;
-}
-
-#social-icons ul li {
-  list-style: none;
-  width: auto;
-  margin: auto;
-  font-size: 1.6em;
-}
-
-#social-icons ul li a {
-  color: #fff;
-}
+/* Contact form */
 
 input, textarea {
   border: 1px solid #ccc;
@@ -191,27 +177,49 @@ input, textarea {
 }
 
 
+/* Footer */
+
+footer {
+  background-color: #045474;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e6b649;
+}
+
+.footer-social-icons-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 0;
+}
+
+.footer-social-icons-list li {
+  list-style: none;
+  width: auto;
+  margin: auto;
+  font-size: 1.6em;
+}
+
+.footer-social-icons-link {
+  color: #fff;
+}
+
+
+
 
 
 /* Desktop */
 
 @media (min-width: 901px) {
 
-  body {
-    font-size: 1em;
-  }
-
-  header {
-    height: 75px;
-  }
+  /* Header and nav */
 
   .logo-mobile-style {
     display: none;
-  }
-
-  .logo-desktop-style {
-    width: 239px;
-    height: 75px;
   }
 
   .nav-icon {
@@ -223,13 +231,11 @@ input, textarea {
     padding-right: 50px;
   }
 
-  .site-nav ul li {
+  .top-nav-items {
     margin: auto 15px;
   }
 
-  .site-nav ul li {
-    margin: auto 15px;
-  }
+  /* Intro section */
 
   .main-img-section  {
     background-position: center center;
@@ -242,8 +248,12 @@ input, textarea {
     font-size: 5em;
   }
 
-  #content-body-container > div {
+  /* Main section */
+
+  .content-section {
     padding-top: 3%;
+    max-width: 1200px;
+    margin: auto;
   }
 
   .flex-row-4 {
@@ -263,6 +273,8 @@ input, textarea {
     text-align: center;
   }
 
+  /* About section */
+
   .about-description {
     display: flex;
     flex-direction: column;
@@ -270,20 +282,20 @@ input, textarea {
     margin: auto;
   }
 
-  #about-img-container {
+  .about-img-container {
     padding-right: 15px;
   }
 
-  #about-us-img {
+  .about-img-contain {
     width: 100%;
   }
 
-  .about-description > p {
+  .about-p {
     padding-left: 15px;
 
   }
 
-
+  /* Contact form */
 
   form {
     display: flex;
@@ -294,13 +306,13 @@ input, textarea {
     justify-content: space-between;
   }
 
-  form div:nth-child(1), form div:nth-child(2) {
+  .basic-info {
     display: flex;
     flex-direction: column;
     width: 45%;
   }
 
-  form div:nth-child(3), form div:nth-child(4), form div:nth-child(5) {
+  .contact-content-fields {
     width: 100%;
     padding-top: 3%;
     display: flex;
@@ -308,30 +320,36 @@ input, textarea {
     justify-content: center;
   }
 
-  #footer-content {
+  /* Footer */
+
+  .footer-container {
     display: flex;
     margin: auto;
     justify-content: center;
   }
 
-  #footer-content div:nth-child(1) {
+  .footer-social-icons-container {
     flex-basis: 20%;
   }
 
-  #footer-content div:nth-child(2), #footer-content div:nth-child(2) {
+  .footer-container div:nth-child(2) {
     flex-basis: 40%;
   }
 
-  #social-icons ul {
+  .footer-social-icons-list {
     padding: 0px;
   }
 
 }
 
 
-/* Larger Mobile styles */
+/*
+Larger Mobile styles
+*/
 
 @media (max-width: 900px) and (min-width: 451px) {
+
+  /* Header and nav */
 
   .logo-mobile-style {
     width: 90px;
@@ -348,8 +366,8 @@ input, textarea {
 
   .site-nav {
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 40px;
     height: 75px;
   }
 
@@ -357,18 +375,18 @@ input, textarea {
     justify-content: space-between;
   }
 
-  .site-nav ul li {
+  .top-nav-items {
     padding: 0 5px;
     text-align: center;
   }
 
-  .site-nav ul li a {
+  .nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .site-nav ul li a p {
+  .nav-link p {
     margin-top: 3px;
     font-size: 0.7em;
   }
@@ -376,6 +394,8 @@ input, textarea {
   .nav-icon {
     width: auto;
   }
+
+  /* Intro section */
 
   .main-img-section {
     width: auto;
@@ -393,11 +413,13 @@ input, textarea {
     margin: 1.3em;
   }
 
-  #banner-button {
+  .intro-banner-button {
     font-size: 28px;
   }
 
-  #class-descriptions-container, #pricing-descriptions-container, form {
+  /* Main section */
+
+  .flex-row-wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -412,7 +434,7 @@ input, textarea {
     padding: 5% 0 0 0;
   }
 
-  .center-column, form div:nth-child(1), form div:nth-child(2) {
+  .center-column, .basic-info {
     width: 40%;
     padding: 0 5%;
   }
@@ -421,16 +443,18 @@ input, textarea {
     padding: 0 5%;
   }
 
-  #about-us-img {
+  .about-img-contain {
     width: 100%;
   }
 
-  form div:nth-child(1), form div:nth-child(2) {
+  /* Contact form */
+
+  .basic-info {
     display: flex;
     flex-direction: column;
   }
 
-  form div:nth-child(3), form div:nth-child(4), form div:nth-child(5) {
+  .contact-content-fields {
     width: 100%;
     padding: 3% 5% 0 5%;
     display: flex;
@@ -438,13 +462,21 @@ input, textarea {
     justify-content: center;
   }
 
+  /* footer*/
+
   footer {
     padding: 5% 5%;
   }
 
 }
 
-/* Smaller Mobile styles */
+
+
+
+
+/*
+Smaller Mobile styles
+*/
 
 
 @media (max-width: 450px) {
@@ -455,8 +487,9 @@ input, textarea {
 
   body {
     position: relative;
-    font-size: 1em;
   }
+
+  /* Header and nav */
 
   .logo-mobile-style {
     width: 90px;
@@ -476,13 +509,13 @@ input, textarea {
     justify-content: space-between;
   }
 
-  .site-nav ul li {
+  .top-nav-items {
     font-size: 10px;
     padding: 0 5px;
     text-align: center;
   }
 
-  .site-nav ul li a {
+  .nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -492,10 +525,11 @@ input, textarea {
     width: auto;
   }
 
+  /* Intro section */
+
   main {
     margin-top: 75px;
   }
-
 
   .main-img-section {
     width: auto;
@@ -511,6 +545,8 @@ input, textarea {
     padding: 30px 0 15px 0;
   }
 
+  /* Main section */
+
   h3 {
     margin-top: 0px;
     margin-bottom: 5px;
@@ -525,7 +561,7 @@ input, textarea {
     margin: 0;
   }
 
-  .about-description p, #footer-content p {
+  .about-description p {
     padding: 5px 15px;
   }
 
@@ -535,32 +571,36 @@ input, textarea {
     font-weight: bold;
   }
 
-  .about-description, #about-img-container {
+  .about-description, .about-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #about-us-img, #about-us-img + figcaption {
+  .about-us-img-desc {
     width: 90%;
   }
 
-  figcaption {
+  .img-description {
     padding: 0;
   }
 
-  #about-vid-container {
+  .vid-container {
     width: 90%;
   }
+
+  /* Contact form */
 
   form div {
     display: flex;
     flex-direction: column;
   }
 
-  #contact-content-field {
+  .text-area-text {
     font-size: 0.9em;
   }
+
+  /* Footer */
 
   footer {
     padding: 5% 5%;

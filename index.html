@@ -14,19 +14,19 @@
       <a accesskey="h" href="#intro-section"><img src="_static/images/myfav_yoga_logo_wide.png" class="logo-desktop-style" alt="MyFav Yoga Logo"></a>
       <nav id="nav-bar" class="site-nav">
         <ul>
-          <li id="classes-button"><a accesskey="c" href="#classes-section" class="nav-link">
+          <li id="classes-button" class="top-nav-items"><a accesskey="c" href="#classes-section" class="nav-link">
             <img src="_static/images/yoga-mat.png" class="nav-icon"><p>Classes</p></a>
           </li>
 
-          <li id="pricing-button"><a accesskey="p" href="#pricing-section" class="nav-link">
+          <li id="pricing-button" class="top-nav-items"><a accesskey="p" href="#pricing-section" class="nav-link">
             <img src="_static/images/price-tag.png" class="nav-icon"><p>Pricing</p></a>
           </li>
 
-          <li id="about-button"><a accesskey="a" href="#about-us-section" class="nav-link">
+          <li id="about-button" class="top-nav-items"><a accesskey="a" href="#about-us-section" class="nav-link">
             <img src="_static/images/yoga.png" class="nav-icon"><p>About</p></a>
           </li>
 
-          <li id="contact-buton"><a accesskey="f" href="#contact-section" class="nav-link">
+          <li id="contact-buton" class="top-nav-items"><a accesskey="f" href="#contact-section" class="nav-link">
             <img src="_static/images/laptop.png" class="nav-icon"><p>Contact</p></a>
           </li>
         </ul>
@@ -42,7 +42,8 @@
           <div class="content intro-content">
 
             <h1 id="title" class="center-aligned-heading site-title">Yoga for all</h1>
-            <a href="#classes-section"><button accesskey="c" id="banner-button">See our classes</button></a>
+            <a href="#classes-section"><button accesskey="c" id="banner-button"
+              class="intro-banner-button">See our classes</button></a>
 
          </div>
 
@@ -51,10 +52,10 @@
 
       <div id="content-body-container">
 
-        <div id="classes-section" class="main-content">
+        <div id="classes-section" class="main-content content-section">
           <h2 class="center-aligned-heading heading-black">Our classes</h2>
 
-          <div id="class-descriptions-container" class="flex-row-4">
+          <div id="class-descriptions-container" class="flex-row-4 flex-row-wrap">
             <div class="class-description center-column">
               <h3 class="center-aligned-heading heading-black">Ashtanga</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,10 +82,10 @@
           </div>
           </div>
 
-          <div id="pricing-section" class="main-content">
+          <div id="pricing-section" class="main-content content-section">
             <h2 class="center-aligned-heading heading-black">Pricing</h2>
 
-            <div id="pricing-descriptions-container" class="flex-row-4">
+            <div id="pricing-descriptions-container" class="flex-row-4 flex-row-wrap">
               <div class="pricing-description center-column">
                 <h3 class="center-aligned-heading heading-black">Monthly Unlimited</h3>
                 <p class="dollar-amount">$100</p>
@@ -126,23 +127,23 @@
 
           </div>
 
-          <div id="about-us-section" class="main-content">
+          <div id="about-us-section" class="main-content content-section">
             <h2 class="center-aligned-heading heading-black">About us</h2>
 
             <div id="about-description-container">
 
 
               <div class="about-description">
-                <div id="about-img-container">
-                  <img id="about-us-img" src="_static/images/yoga-in-forest.jpg"
+                <div class="about-img-container">
+                  <img id="about-us-img" class="about-img-contain about-us-img-desc" src="_static/images/yoga-in-forest.jpg"
                   alt="Woman doing yoga in a forest">
-                  <figcaption>photo credit: KnitSpirit
+                  <figcaption class="img-description about-us-img-desc">photo credit: KnitSpirit
                     <a href="http://www.flickr.com/photos/40573110@N02/35734987613">
                       My YT Diary #1</a> via <a href="http://photopin.com">photopin</a>
                       <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">
                         (license)</a></figcaption>
                 </div>
-                <p id="description">This website is the landing page for a fictional yoga studio
+                <p id="description" class="about-p">This website is the landing page for a fictional yoga studio
                   called MyFav Yoga. Since I'm always in search of the perfect
                   yoga studio, I figured I'd create a landing page for one!
                 </p>
@@ -151,16 +152,16 @@
               <div class="about-description">
 
 
-                <div id="about-vid-container">
+                <div id="about-vid-container" class="vid-container">
 
-                  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/iQMzde6iV7Y"
+                  <iframe id="video" class="vid" width="560" height="315" src="https://www.youtube.com/embed/iQMzde6iV7Y"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                     encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                   </iframe>
 
                 </div>
 
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus
+                <p class="about-p">At vero eos et accusamus et iusto odio dignissimos ducimus
                   qui blanditiis praesentium voluptatum deleniti atque corrupti
                   quos dolores et quas molestias excepturi sint occaecati
                   cupiditate non provident, similique sunt in culpa qui officia
@@ -173,13 +174,13 @@
             </div>
           </div>
 
-          <div id="contact-section" class="main-content">
+          <div id="contact-section" class="main-content content-section">
             <h2 class="center-aligned-heading heading-black">Contact us</h2>
 
             <div id="form-container">
 
               <div id="form-wrapper" class="main-content">
-              <form id="form" action="https://www.freecodecamp.org/email-submit">
+              <form id="form" class="flex-row-wrap" action="https://www.freecodecamp.org/email-submit">
 
                 <div id="name-field" class="basic-info">
                   <label for="name" id="name-label">Name *</label>
@@ -196,7 +197,7 @@
                   <input type="text" id="subject" name="subject" required>
                 </div>
 
-                <div id="contact-content-field" class="contact-content-fields">
+                <div id="contact-content-field" class="contact-content-fields text-area-text">
                   <p>We'd love to hear from you! Feel free to leave your feedback
                     or ask a question.</p>
                     <label for="contact-content">Message (up to 200 characters) *</label>
@@ -223,13 +224,13 @@
     </main>
 
     <footer>
-      <div id="footer-content">
+      <div id="footer-content" class="footer-container">
 
-        <div id="social-icons">
-          <ul>
-            <li><a href="https://github.com/newwebash"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://twitter.com/NewtonLanguages"<i class="fab fa-twitter"></i></a></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
+        <div id="social-icons" class="footer-social-icons-container">
+          <ul class="footer-social-icons-list">
+            <li><a href="https://github.com/newwebash" class="footer-social-icons-link"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://twitter.com/NewtonLanguages" class="footer-social-icons-link"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ashley-newton-00131255/" class="footer-social-icons-link"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
         </div>
 
